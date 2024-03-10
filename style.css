@@ -224,6 +224,20 @@ section.projetos .flex{
     transition: 8s;
     position: relative;
 }
+.img-proj2{
+    width: 360px;
+    height: 460px;
+    background-color: cyan;
+    background-size: cover;
+    background-position: 50% 0%;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 8s;
+    position: relative;
+}
+.img-proj2:hover{
+    background-position: 100% 100%;
+}
 
 .img-proj:hover{
     background-position: 100% 100%;
@@ -245,6 +259,7 @@ section.projetos .flex{
     color: white;
     opacity: 0;
     transition: .5s;
+    text-decoration: none;
 }
 
 .overlay:hover{
